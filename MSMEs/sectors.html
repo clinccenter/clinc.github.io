@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ccenter</title>
+    <link rel="stylesheet" href="http://localhost/testhtml/styles/main.css" />
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader">
+        <figure>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </figure>
+    </div>
+    <div style="display:none;" id="content">
+        <div class="first"></div>
+
+        <div class="sectionback">
+            <div class="sectionnavcase">
+                <nav class="section-navigation">
+                    <div class="logo">
+                        <a href="http://localhost/testhtml/index.html">
+                            <img src="http://localhost/testhtml/images/logoFinal.png" height="60px">
+                        </a>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu-text"><a href="http://localhost/testhtml/index.html">Home</a></li>
+                        <li class="menu-text"><a href="#sectiondraft">Articles</a></li>
+                        <li class="menu-text"><a href="#secondSection">RGNIII Departments</a></li>
+                        <li class="menu-text"><a href="#secondSection">About Us</a></li>
+                        <li class="menu-text"><a href="#home">Contact Us</a></li>
+                    </ul>
+                    <div class="menu-right">
+                        <div class="searchCon">
+                            <form>
+                                <input type="text" name="search" placeholder="Search.." id="search">
+                            </form>
+                        </div>
+                        <img src="http://localhost/testhtml/images/user.svg" style="height:30px;width:30px;" id="user" onclick="document.getElementById('id01').style.display='inline'">
+                        <div id="id01" class="modal">
+
+                            <form class="modal-content animate" action="/action_page.html" method="post">
+                                <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="http://localhost/testhtml/images/login.svg" alt="Avatar" class="avatar" style="height: 75px; width:75px;">
+                                </div>
+
+                                <div class="container">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                    <button id="logBtn" type="submit">Login</button>
+                                    <label>
+                                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                                    </label>
+                                </div>
+
+                                <div class="container" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                    <span class="psw">Forgot <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="sector-menu">
+
+                <div class="passive-cubes ash">
+                    <div class="passive-overlay"></div>
+                    <div class="passive-circle">
+                        <img class="image" src="http://localhost/testhtml/images/msme.svg" width="64px" height="72px" />
+                    </div>
+                </div>
+                <div class="sector-header">
+                    <h1>Micro, Small and Medium Enterprises</h1>
+                </div>
+                <div class="sector-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum officiis cum cumque omnis consequatur quisquam quod dicta, tenetur, dolorum iure fugiat vitae porro excepturi maiores sunt voluptatum reiciendis voluptate earum? Perspiciatis cum nulla ab commodi, temporibus dignissimos facere, voluptas dicta consequatur magnam vero. Ducimus ratione veritatis eius reiciendis amet.</div>
+                <div class="sector-header2">
+                    <div class="cont_breadcrumbs_1">
+                        <ul class="breadlink">  
+                            <li><a href="http://localhost/testhtml/index.html">Home</a></li>
+                            <li><a href="#">MSMEs-Regional Industries & Sectors</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="sector-1"><a href="http://localhost/testhtml/MSMEs/Agriculture&Fisheries.html" class="cubes agri">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <img class="image" src="http://localhost/testhtml/images/agri.svg" width="64px" height="72px" />
+                        </div>
+                        <p>Agriculture & Fisheries</p>
+                    </a>
+                </div>
+                <div class="sector-2"><a href="http://localhost/testhtml/MSMEs/FoodIndustries.html" class="cubes food">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <img class="image" src="http://localhost/testhtml/images/fI.svg" width="64px" height="72px" />
+                        </div>
+                        <p>Food Industries</p>
+                    </a></div>
+                <div class="sector-3"> <a href="http://localhost/testhtml/MSMEs/Manufacturing.html" class="cubes manuf">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <img class="image" src="http://localhost/testhtml/images/mf.svg" width="64px" height="72px" />
+                        </div>
+                        <p>Manufacturing</p>
+                    </a></div>
+                <div class="sector-4"> <a href="http://localhost/testhtml/MSMEs/MaterialProcessing.html" class="cubes mater">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <img class="image" src="http://localhost/testhtml/images/mp.svg" width="64px" height="72px" />
+                        </div>
+                        <p>Material Processing</p>
+                    </a></div>
+                <div class="sector-5"> <a href="http://localhost/testhtml/MSMEs/MedicalInstitutes.html" class="cubes medic">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <img class="image" src="http://localhost/testhtml/images/mde.svg" width="64px" height="72px" />
+                        </div>
+                        <p>Medical Institutes</p>
+                    </a></div>
+                <div class="sector-6"> <a href="http://localhost/testhtml/MSMEs/MetalWorks.html" class="cubes metal">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <img class="image" src="http://localhost/testhtml/images/met.svg" width="64px" height="72px" />
+                        </div>
+                        <p>Metal Works</p>
+                    </a></div>
+                <div class="sector-7"> <a href="http://localhost/testhtml/MSMEs/Technology&Engineering.html" class="cubes tech">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <img class="image" src="http://localhost/testhtml/images/alien.svg" width="64px" height="72px" />
+                        </div>
+                        <p>Technology and Engineering</p>
+                    </a></div>
+                <div class="sector-menu-space"></div>
+            </div>
+        </div>
+        <div class="lastSection">
+            <div class="footCon">
+                <div class="logoCons">
+                    <p>POWERED BY:</p>
+
+                    <a href="https://www.bulsu.edu.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/bulsu.png" height="75px" />
+                    </a>
+
+                    <a href="https://region3.dost.gov.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/dost.png" height="75px" />
+                    </a>
+
+                    <a href="https://www.dti.gov.ph/regions/region-3/" target="_blank">
+                        <img src="http://localhost/CLINC/Images/dti.png" height="75px" />
+                    </a>
+
+                    <a href="https://www.bulacanchamber.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/bcci.png" height="75px" />
+                    </a>
+
+                    <a href="https://chedro3.ched.gov.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/ched.png" height="75px" />
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <img src="http://localhost/CLINC/Images/auf.png" height="75px" />
+                    </a>
+                </div>
+
+                <div class="maintBy">Maintained by: CLINC CENTER</div>
+
+                <div class="copyRight">
+                    Copyright &copy; 2020 Bulacan State University<br />
+                    Mc Arthur Highway, Guinhawa, Malolos, Bulacan<br />
+                    P.O BOX 3000 Philippines<br />
+                    All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 300);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
