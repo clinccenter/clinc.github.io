@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ccenter</title>
+    <link rel="stylesheet" href="http://localhost/testhtml/styles/main.css" />
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader">
+        <figure>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </figure>
+    </div>
+    <div style="display:none;" id="content">
+        <div class="first"></div>
+        <div class="second"></div>
+
+        <div id="navcase">
+            <nav class="navigation">
+                <div class="logo">
+                    <a href="http://localhost/testhtml/index.html">
+                        <img src="http://localhost/testhtml/images/logoFinal.png" height="60px">
+                    </a>
+                </div>
+                <ul class="menu-list">
+                    <li class="menu-text"><a href="http://localhost/testhtml/index.html">Home</a></li>
+                    <li class="menu-text"><a href="#sectiondraft">Articles</a></li>
+                    <li class="menu-text"><a href="#secondSection">RGNIII Departments</a></li>
+                    <li class="menu-text"><a href="#secondSection">About Us</a></li>
+                    <li class="menu-text"><a href="#home">Contact Us</a></li>
+                </ul>
+                <div class="menu-right">
+                    <div class="searchCon">
+                        <form>
+                            <input type="text" name="search" placeholder="Search.." id="search">
+                        </form>
+                    </div>
+                    <img src="http://localhost/testhtml/images/user.svg" style="height:30px;width:30px;" id="user" onclick="document.getElementById('id01').style.display='inline'">
+                    <div id="id01" class="modal">
+
+                        <form class="modal-content animate" action="/action_page.html" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <img src="http://localhost/testhtml/images/login.svg" alt="Avatar" class="avatar" style="height: 75px; width:75px;">
+                            </div>
+
+                            <div class="container">
+                                <label for="uname"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                <button id="logBtn" type="submit">Login</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                            </div>
+
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="firstSection" id="firstSection">
+            <div class="header pullUp">
+                <div class="header-title">
+                    <h2>Central Luzon Innovation Network and Connectivity</h2>
+                    <br>
+                </div>
+                <hr>
+                <div class="header-text">
+                    <br>
+                    <p>Recognizing the important role of academic institutions in innovation, DOST, DTI, and CHED aims to strengthen the involvement of the private sector in the identification and funding of important industry research, and expand data-mapping efforts across sectors thru Cybernetics Research Development Centers for industry-academe synergy.
+                    </p> <br>
+                </div>
+            </div>
+            <div class="sectionMenu-1 slideUp"><a href="http://localhost/testhtml/HEI-Researchers/sectors.html" class="cubes red">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/ResearcherB.svg" width="64px" height="72px" />
+                    </div>
+                    <p>HEI Researchers</p>
+                </a>
+            </div>
+            <div class="sectionMenu-2 slideUp"><a href="http://localhost/testhtml/HEI/sectors.html" class="cubes orange">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/HEI.svg" width="64px" height="72px" />
+                    </div>
+                    <p>Higher Education Institutions</p>
+                </a></div>
+            <div class="sectionMenu-3 slideUp"> <a href="http://localhost/testhtml/Innovation-Experts/sectors.html" class="cubes yellow">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/ino.svg" width="64px" height="72px" />
+                    </div>
+                    <p>Innovation Experts</p>
+                </a></div>
+            <div class="sectionMenu-4 slideUp"> <a href="http://localhost/testhtml/Negosyo-Centers/sectors.html" class="cubes green">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/piso.png" width="64px" height="72px" />
+                    </div>
+                    <p>Negosyo Centers</p>
+                </a></div>
+            <div class="sectionMenu-5 slideUp"> <a href="http://localhost/testhtml/SSFs/sectors.html" class="cubes blue">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/investors.svg" width="64px" height="72px" />
+                    </div>
+                    <p>Shared Service Facilities</p>
+                </a></div>
+            <div class="sectionMenu-6 slideUp"> <a href="http://localhost/testhtml/Research-Facilities/sectors.html" class="cubes indigo">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/rebuild.svg" width="64px" height="72px" />
+                    </div>
+                    <p>Research Facilities</p>
+                </a></div>
+            <div class="sectionMenu-7 slideUp"> <a href="http://localhost/testhtml/Business-Mentors/sectors.html" class="cubes violet">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/experts.svg" width="64px" height="72px" />
+                    </div>
+                    <p>Business Mentors</p>
+                </a></div>
+            <div class="sectionMenu-8 slideUp"><a href="http://localhost/testhtml/MSMEs/sectors.html" class="cubes ash">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img class="image" src="http://localhost/testhtml/images/msme.svg" width="64px" height="72px" />
+                    </div>
+                    <p>Micro, Small & Medium Enterprises</p>
+                </a></div>
+        </div>
+        <div class="sectiondraft" id="sectiondraft">
+            <div class="bannerHighlight"><img src="http://localhost/testhtml/images/bbh.png"></div>
+            <div class="slideContainer">
+                <!-- Container for the image gallery -->
+                <div class="bannerSlide">
+                    <!-- Full-width images with number text -->
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="http://localhost/testhtml/images/1.png" style="width:100%;height:500px;" class="deis">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="http://localhost/testhtml/images/2.png" style="width:100%;height:500px;">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="http://localhost/testhtml/images/3.png" style="width:100%;height:500px;">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="http://localhost/testhtml/images/4.png" style="width:100%;height:500px;">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="http://localhost/testhtml/images/5.png" style="width:100%;height:500px;">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="http://localhost/testhtml/images/6.png" style="width:100%;height:500px;">
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Image text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="http://localhost/testhtml/images/1.png" style="width:100%" onclick="currentSlide(1)" alt="lorem ipsumLorem ipsum dolor sit amet consectetur adipisicing elit. Non, saepe?">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="http://localhost/testhtml/images/2.png" style="width:100%" onclick="currentSlide(2)" alt="lorem ipsum">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="http://localhost/testhtml/images/3.png" style="width:100%" onclick="currentSlide(3)" alt="lorem ipsum">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="http://localhost/testhtml/images/4.png" style="width:100%" onclick="currentSlide(4)" alt="lorem ipsum">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="http://localhost/testhtml/images/5.png" style="width:100%" onclick="currentSlide(5)" alt="lorem ipsum">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="http://localhost/testhtml/images/6.png" style="width:100%" onclick="currentSlide(6)" alt="lorem ipsum">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <div class="secondSection" id="secondSection">
+                <div class="secondHeader"> <img src="http://localhost/testhtml/images/r3.png"></div>
+                <div class="deptCard-1 dcards">
+                    <div class="face face1">
+                        <div class="cardcontent">
+                            <img src="http://localhost/testhtml/images/dti.png" style="width:100px;">
+                            <h3>Department of Trade and Industry Region III</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="cardcontent">
+                            <h3 class="card-title">Foreign Assisted Projects</h3>
+                            <div class="card-text">
+                                <a href="https://www.dti.gov.ph/faps/msmes/" target="_blank">MSME’s</a>
+                                <a href="https://www.dti.gov.ph/faps/industry-development-program/" target="_blank">Industry Development Program</a>
+                                <a href="https://www.dti.gov.ph/regions/region-3/#" target="_blank">Trade Policy</a>
+                                <a href="https://www.dti.gov.ph/faps/ease-of-doing-business/" target="_blank">Ease of Doing Business</a>
+                                <a href="https://www.dti.gov.ph/faps/proged/" target="_blank">Green Economic Development</a>
+                                <a href="https://www.dti.gov.ph/regions/region-3/#" target="_blank">Special Programs</a>
+                                <a href="https://www.dti.gov.ph/regions/region-3/#" target="_blank">Others</a>
+                            </div>
+                            <a href="#" class="deptLink">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="deptCard-2 dcards">
+                    <div class="face face1">
+                        <div class="cardcontent">
+                            <img src="http://localhost/testhtml/images/dost.png" style="width:100px;">
+                            <h3>Department of Science and Technology Region III</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="cardcontent">
+                            <h3 class="card-title">Programs</h3>
+                            <div class="card-text">
+                                <a href="https://region3.dost.gov.ph/index.php/11-programs-and-projects/29-setup" target="_blank">SETUP</a>
+                                <a href="https://region3.dost.gov.ph/index.php/11-programs-and-projects/18-grants-in-aid" target="_blank">Grants-In-Aid(GIA)</a>
+                                <a href="https://region3.dost.gov.ph/index.php/s-t-scholarship-program" target="_blank">S&T Scholarship Program</a>
+                            </div>
+                            <h3 class="card-title">Services</h3>
+                            <div class="card-text">
+                                <a href="https://region3.dost.gov.ph/index.php/packaging-labelling" target="_blank">Technology Training and Consultancy</a>
+                                <a href="https://region3.dost.gov.ph/index.php/9-services/157-starbooks" target="_blank">STARBOOKS</a>
+                                <a href="https://region3.dost.gov.ph/index.php/metals-industry-research-and-development-center" target="_blank">Science for Change Program (S4CP)</a>
+                                <a href="https://region3.dost.gov.ph/index.php/rstl" target="_blank">Regional Standards and testhtmling Laboratory</a>
+
+
+                            </div>
+                            <a href="#" class="deptLink">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="deptCard-3 dcards">
+                    <div class="face face1">
+                        <div class="cardcontent">
+                            <img src="http://localhost/testhtml/images/ched.png" style="width:100px;">
+                            <h3>Commission on Higher Education Region III</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="cardcontent">
+                            <h2 class="card-title">CHEDRO III</h2>
+                            <h2 class="card-title">HEI Directory</h2>
+
+                            <a href="#" class="deptLink">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="deptCard-4 dcards">
+                    <div class="face face1">
+                        <div class="cardcontent">
+                            <img src="http://localhost/testhtml/images/market.svg" style="width:100px;">
+                            <h3>BUSINESS CHAMBERS</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="cardcontent">
+                            <h2 class="card-title">Mentorship</h2>
+                            <h2 class="card-title">Incubators</h2>
+                            <h2 class="card-title">Business Mentors</h2>
+                            <h2 class="card-title">Funding</h2>
+                            <a href="#" class="deptLink">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lastSection">
+            <div class="footCon">
+                <div class="powerd"><p>POWERED BY:</p></div>
+                <div class="logoCons">
+                    
+
+                    <a href="https://www.bulsu.edu.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/bulsu.png" height="75px" />
+                    </a>
+
+                    <a href="https://region3.dost.gov.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/dost.png" height="75px" />
+                    </a>
+
+                    <a href="https://www.dti.gov.ph/regions/region-3/" target="_blank">
+                        <img src="http://localhost/CLINC/Images/dti.png" height="75px" />
+                    </a>
+
+                    <a href="https://www.bulacanchamber.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/bcci.png" height="75px" />
+                    </a>
+
+                    <a href="https://chedro3.ched.gov.ph" target="_blank">
+                        <img src="http://localhost/CLINC/Images/ched.png" height="75px" />
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <img src="http://localhost/CLINC/Images/auf.png" height="75px" />
+                    </a>
+                </div>
+
+                <div class="maintBy">Maintained by: CLINC CENTER</div>
+
+                <div class="copyRight">
+                    Copyright &copy; 2020  Bulacan State University<br />
+                    Mc Arthur Highway, Guinhawa, Malolos, Bulacan<br />
+                    P.O BOX 3000 Philippines<br />
+                    All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 100);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        }
+    </script>
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navcase").style.backgroundColor = "#fff";
+                document.getElementById("navcase").style.height = "75px";
+                document.getElementById("navcase").style.padding = "0px";
+
+            } else {
+                document.getElementById("navcase").style.backgroundColor = "transparent";
+                document.getElementById("navcase").style.height = "160px";
+                document.getElementById("navcase").style.padding = "30px";
+            }
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+</body>
+
+</html>
