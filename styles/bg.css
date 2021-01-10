@@ -2,7 +2,7 @@
   top:0;
   z-index:-10;
   position: absolute;
-  background-image: linear-gradient(rgba(0, 0, 0, -1), rgba(0, 0, 0, 0.2)),url(http://localhost/test/images/gray.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, -1), rgba(0, 0, 0, 0.2)),url(/images/gray.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
