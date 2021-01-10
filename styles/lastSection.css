@@ -1,0 +1,40 @@
+.lastSection {
+
+    border-top:8px solid#00aeed;
+    background-color:#333;
+    color:#7a7a7a;
+    width: 100%;
+    height: fit-content;
+    padding:20px;
+}
+
+.footCon {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-gap: 20px;
+    max-width: 1300px;
+    margin:auto;
+}
+.powerd{
+    grid-column: 6/ 8;
+    grid-row: 3;
+    display: flex;
+    place-self: center;
+}
+.logoCons {
+    grid-column: 2/ 12;
+    grid-row: 4;
+    display: flex;
+    justify-content: space-between;
+}
+.maintBy{
+    grid-column: 9/ 13;
+    grid-row: 5;
+    justify-self: end;
+}
+.copyRight{
+    grid-column: 1/ 5;
+    grid-row: 5;
+    justify-self: start;
+    
+}
